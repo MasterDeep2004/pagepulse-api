@@ -15,11 +15,11 @@ FROM mcr.microsoft.com/dotnet/aspnet:9.0
 
 WORKDIR /app
 
-COPY --from=build /out .
-
 ENV ASPNETCORE_ENVIRONMENT=Production
 ENV DOTNET_USE_POLLING_FILE_WATCHER=false
 ENV DOTNET_RUNNING_IN_CONTAINER=true
+
+COPY --from=build /out .
 
 EXPOSE 8080
 
