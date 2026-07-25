@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\soumy\\PagePulse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\models\\auditresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\models\\auditresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\validators\\auditrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\validators\\auditrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\configuration\\ratelimitsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\configuration\\ratelimitsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\configuration\\cachesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\configuration\\cachesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\models\\auditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\models\\auditrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\pagepulse.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\pagepulse.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Program.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Program.cs",
+              "RelativeToolTip": "PagePulse.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:05:35.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Services\\AuditService.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Services\\AuditService.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Services\\AuditService.cs",
+              "RelativeToolTip": "PagePulse.Api\\Services\\AuditService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:15:05.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuditController.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Controllers\\AuditController.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Controllers\\AuditController.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Controllers\\AuditController.cs",
+              "RelativeToolTip": "PagePulse.Api\\Controllers\\AuditController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:14:32.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:15:50.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuditResponse.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\AuditResponse.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Models\\AuditResponse.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\AuditResponse.cs",
+              "RelativeToolTip": "PagePulse.Api\\Models\\AuditResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:12:52.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuditRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Validators\\AuditRequestValidator.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Validators\\AuditRequestValidator.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Validators\\AuditRequestValidator.cs",
+              "RelativeToolTip": "PagePulse.Api\\Validators\\AuditRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:16:22.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "PagePulse.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\appsettings.json",
+              "RelativeToolTip": "PagePulse.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-25T08:19:16.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RateLimitSettings.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Configuration\\RateLimitSettings.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Configuration\\RateLimitSettings.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Configuration\\RateLimitSettings.cs",
+              "RelativeToolTip": "PagePulse.Api\\Configuration\\RateLimitSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:18:46.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CacheSettings.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Configuration\\CacheSettings.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Configuration\\CacheSettings.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Configuration\\CacheSettings.cs",
+              "RelativeToolTip": "PagePulse.Api\\Configuration\\CacheSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:16:50.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Interfaces\\IAuditService.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Interfaces\\IAuditService.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Interfaces\\IAuditService.cs",
+              "RelativeToolTip": "PagePulse.Api\\Interfaces\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:13:44.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Models\\ErrorResponse.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\ErrorResponse.cs",
+              "RelativeToolTip": "PagePulse.Api\\Models\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:13:21.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuditRequest.cs",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\AuditRequest.cs",
+              "RelativeDocumentMoniker": "PagePulse.Api\\Models\\AuditRequest.cs",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\AuditRequest.cs",
+              "RelativeToolTip": "PagePulse.Api\\Models\\AuditRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-25T08:12:03.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PagePulse.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\PagePulse.Api.csproj",
+              "RelativeDocumentMoniker": "PagePulse.Api\\PagePulse.Api.csproj",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\PagePulse.Api.csproj",
+              "RelativeToolTip": "PagePulse.Api\\PagePulse.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-25T08:06:39.219Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

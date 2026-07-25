@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "UfapfSTNmHfr6P36Ul321klP3nmnZWPUS+Je8jzqsns=",
+  "Source": "PagePulse.Api",
+  "BasePath": "_content/PagePulse.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

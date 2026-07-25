@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PagePulse.Api.Controllers.AuditController",
+    "Method": "Audit",
+    "RelativePath": "api/Audit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PagePulse.Api.Models.AuditRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
