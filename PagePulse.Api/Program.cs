@@ -6,9 +6,22 @@ using PagePulse.Api.Middleware;
 using PagePulse.Api.Services;
 using PagePulse.Api.Validators;
 
-Environment.SetEnvironmentVariable("DOTNET_USE_POLLING_FILE_WATCHER", "false");
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+{
+    Args = args,
+    EnvironmentName = Environments.Production
+});
+builder.Configuration.Sources
+    .Where(s => s.GetType().Name.Contains("JsonConfigurationSource"))
+    .ToList()
+    .ForEach(s =>
+    {
+        if (s is Microsoft.Extensions.Configuration.Json.JsonConfigurationSource jsonSource)
+        {
+            jsonSource.ReloadOnChange = false;
+        }
+    });
 
 builder.Services.AddControllers();
 
