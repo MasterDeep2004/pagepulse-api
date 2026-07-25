@@ -74,8 +74,7 @@
               "RelativeToolTip": "PagePulse.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:05:35.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:05:35.721Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "PagePulse.Api\\Services\\AuditService.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAswG0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:15:05.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:15:05.833Z"
             },
             {
               "$type": "Document",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:15:50.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:15:50.357Z"
             },
             {
               "$type": "Document",
@@ -126,8 +123,7 @@
               "RelativeToolTip": "PagePulse.Api\\Models\\AuditResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:12:52.325Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:12:52.325Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "PagePulse.Api\\Validators\\AuditRequestValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:16:22.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:16:22.537Z"
             },
             {
               "$type": "Document",
@@ -152,8 +147,7 @@
               "RelativeToolTip": "PagePulse.Api\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-25T08:19:16.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:19:16.83Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "PagePulse.Api\\Configuration\\RateLimitSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:18:46.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:18:46.273Z"
             },
             {
               "$type": "Document",
@@ -178,8 +171,7 @@
               "RelativeToolTip": "PagePulse.Api\\Configuration\\CacheSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:16:50.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:16:50.93Z"
             },
             {
               "$type": "Document",
@@ -191,8 +183,7 @@
               "RelativeToolTip": "PagePulse.Api\\Interfaces\\IAuditService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:13:44.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:13:44.943Z"
             },
             {
               "$type": "Document",
@@ -204,8 +195,7 @@
               "RelativeToolTip": "PagePulse.Api\\Models\\ErrorResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:13:21.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:13:21.644Z"
             },
             {
               "$type": "Document",
@@ -217,21 +207,19 @@
               "RelativeToolTip": "PagePulse.Api\\Models\\AuditRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:12:03.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:12:03.297Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "PagePulse.Api",
+              "Title": "PagePulse.Api.csproj",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\PagePulse.Api.csproj",
               "RelativeDocumentMoniker": "PagePulse.Api\\PagePulse.Api.csproj",
               "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\PagePulse.Api.csproj",
               "RelativeToolTip": "PagePulse.Api\\PagePulse.Api.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-25T08:06:39.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-25T08:06:39.219Z"
             }
           ]
         }

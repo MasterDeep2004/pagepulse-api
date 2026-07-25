@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: pagepulse-api
+    runtime: dotnet
+    buildCommand: dotnet publish PagePulse.Api/PagePulse.Api.csproj -c Release -o out
+    startCommand: dotnet out/PagePulse.Api.dll
+    envVars:
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production

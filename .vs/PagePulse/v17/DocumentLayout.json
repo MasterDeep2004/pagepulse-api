@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\soumy\\PagePulse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\soumy\\PagePulse\\render.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:render.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\soumy\\PagePulse\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\controllers\\auditcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\services\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\models\\auditresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\models\\auditresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|solutionrelative:pagepulse.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B38628B-2EC4-46A8-B165-11FB3FA4CE79}|PagePulse.Api\\PagePulse.Api.csproj|c:\\users\\soumy\\pagepulse\\pagepulse.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -62,23 +70,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "render.yaml",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\render.yaml",
+              "RelativeDocumentMoniker": "render.yaml",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\render.yaml",
+              "RelativeToolTip": "render.yaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-07-25T12:24:04.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\soumy\\PagePulse\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-25T12:23:48.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Program.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Program.cs",
               "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Program.cs",
               "RelativeToolTip": "PagePulse.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:05:35.721Z"
+              "WhenOpened": "2026-07-25T08:05:35.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "AuditService.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Services\\AuditService.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Services\\AuditService.cs",
@@ -90,20 +125,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AuditController.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Controllers\\AuditController.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Controllers\\AuditController.cs",
               "ToolTip": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Controllers\\AuditController.cs",
               "RelativeToolTip": "PagePulse.Api\\Controllers\\AuditController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-25T08:14:32.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
@@ -111,11 +146,12 @@
               "RelativeToolTip": "PagePulse.Api\\Middleware\\ExceptionMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T08:15:50.357Z"
+              "WhenOpened": "2026-07-25T08:15:50.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AuditResponse.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\AuditResponse.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Models\\AuditResponse.cs",
@@ -127,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AuditRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Validators\\AuditRequestValidator.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Validators\\AuditRequestValidator.cs",
@@ -139,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\appsettings.json",
               "RelativeDocumentMoniker": "PagePulse.Api\\appsettings.json",
@@ -151,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "RateLimitSettings.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Configuration\\RateLimitSettings.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Configuration\\RateLimitSettings.cs",
@@ -163,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CacheSettings.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Configuration\\CacheSettings.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Configuration\\CacheSettings.cs",
@@ -175,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IAuditService.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Interfaces\\IAuditService.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Interfaces\\IAuditService.cs",
@@ -187,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ErrorResponse.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\ErrorResponse.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Models\\ErrorResponse.cs",
@@ -199,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AuditRequest.cs",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\Models\\AuditRequest.cs",
               "RelativeDocumentMoniker": "PagePulse.Api\\Models\\AuditRequest.cs",
@@ -211,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "PagePulse.Api.csproj",
               "DocumentMoniker": "C:\\Users\\soumy\\PagePulse\\PagePulse.Api\\PagePulse.Api.csproj",
               "RelativeDocumentMoniker": "PagePulse.Api\\PagePulse.Api.csproj",
