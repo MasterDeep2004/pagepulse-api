@@ -7,11 +7,22 @@ using PagePulse.Api.Services;
 using PagePulse.Api.Validators;
 
 
-var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+var options = new WebApplicationOptions
 {
     Args = args,
     EnvironmentName = Environments.Production
-});
+};
+
+var builder = WebApplication.CreateBuilder(options);
+
+builder.Configuration.Sources.Clear();
+
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
+    .AddJsonFile(
+        $"appsettings.{builder.Environment.EnvironmentName}.json",
+        optional: true,
+        reloadOnChange: false);
 builder.Configuration.Sources
     .Where(s => s.GetType().Name.Contains("JsonConfigurationSource"))
     .ToList()
