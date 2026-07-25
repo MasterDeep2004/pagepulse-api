@@ -1,344 +1,223 @@
-# PagePulse - Scalable Architecture Design
+# PagePulse - Task B: Scalable Architecture Design
 
-## Overview
+## 1. Overview
 
-The current PagePulse service performs URL audits synchronously. To support:
+The current PagePulse API performs URL audits directly through the API request. To support 10,000 audits/day and bursts of 500 concurrent requests, the service needs asynchronous processing, scalable workers, and better monitoring.
 
-- 10,000 audits/day
-- 500 concurrent request bursts
-- Customer-facing response time SLA
-
-the service needs asynchronous processing and scalable components.
-
-The main goal is to keep the API fast while moving heavy audit processing to background workers.
+The main idea is to keep the API fast and move heavy URL processing to background workers.
 
 ---
 
-# Architecture Diagram
+# Architecture
 
 ```
-                    Users
-                      |
-                      |
-               API Gateway
-                      |
-                      |
-              PagePulse API
-                      |
-        -----------------------------
-        |                           |
-        |                           |
-    Redis Cache                Message Queue
-                                    |
-                                    |
-                            Audit Worker Service
-                                    |
-                                    |
-                            URL Fetch Service
-                                    |
-                                    |
-                           External Websites
-
-
-                                    |
-                                    |
-                              PostgreSQL DB
+                 Users
+                   |
+                   |
+            ASP.NET Core API
+                   |
+        ------------------------
+        |                      |
+      Cache                 Queue
+                               |
+                               |
+                    .NET Worker Service
+                               |
+                               |
+                       URL Audit Process
+                               |
+                               |
+                    External Websites
+                               |
+                               |
+                       Elasticsearch
+                               |
+                               |
+                            Kibana
 ```
 
 ---
 
-# Components
+# 2. Components and Data Flow
 
-## 1. API Service
-
-Responsible for:
-
-- Receiving audit requests
-- Validating input
-- Applying rate limits
-- Creating audit jobs
-- Returning audit status
-
-The API should not directly perform long-running website audits.
-
----
-
-## 2. Message Queue
-
-A queue is introduced between the API and workers.
-
-Reason:
-
-- Handles traffic spikes
-- Prevents API blocking
-- Allows independent scaling of workers
-- Provides retry support
-
-Example technology:
-
-- RabbitMQ
-- Azure Service Bus
-- AWS SQS
-
----
-
-## 3. Audit Workers
-
-Background workers consume jobs from the queue.
+## ASP.NET Core API
 
 Responsibilities:
 
-- Fetch website data
-- Process audit
-- Store results
-- Update job status
+- Receive audit requests
+- Validate URLs
+- Apply rate limiting
+- Check cache
+- Create audit jobs
 
-During high traffic, more workers can be added.
-
----
-
-## 4. Redis Cache
-
-Used for temporary and frequently accessed data.
-
-Stores:
-
-- Recent audit results
-- Rate limiting information
-- Temporary job status
-
-Benefits:
-
-- Faster responses
-- Reduced repeated website calls
+The API does not perform long-running audits directly.
 
 ---
-
-## 5. PostgreSQL Database
-
-Stores permanent data:
-
-- Audit history
-- User requests
-- Results
-- Errors
-
----
-
-# Data Flow
-
-1. User sends URL audit request.
-
-2. API validates the request.
-
-3. API checks Redis cache.
-
-4. If result exists:
-   
-   - Return cached response.
-
-5. If not:
-
-   - Create audit job.
-   - Send job to queue.
-
-6. Worker consumes the job.
-
-7. Worker fetches the website.
-
-8. Result is stored in PostgreSQL.
-
-9. Result is cached in Redis.
-
-10. User receives the final result.
-
----
-
-# Queue Strategy
-
-A queue-based approach is preferred instead of synchronous processing.
-
-Without a queue:
-
-- 500 concurrent requests could overload the API.
-- Slow websites could block requests.
-- Failures become harder to recover.
-
-Queue features:
-
-- Retry failed jobs
-- Dead-letter queue for permanent failures
-- Track failed audits
-- Scale workers independently
-
----
-
-# State Management
-
-## Redis
-
-Temporary state:
-
-- Cache
-- Rate limit counters
-- Active audit status
-
-Data has expiry time.
-
----
-
-## PostgreSQL
-
-Permanent state:
-
-- Completed audits
-- Audit history
-- Error records
-
----
-
-# Technology Decisions
-
-| Component | Selected | Alternative | Reason |
-|---|---|---|---|
-| Backend | ASP.NET Core | Node.js | Good performance and existing implementation |
-| Queue | RabbitMQ | Direct API processing | Better handling of traffic bursts |
-| Cache | Redis | Memory Cache | Works across multiple API instances |
-| Database | PostgreSQL | MongoDB | Better fit for structured audit data |
-| Deployment | Docker | Single VM | Easier scaling and deployment |
-
----
-
-# Failure Mode Analysis
-
-## 1. External Website Timeout
-
-Problem:
-
-Some websites may respond slowly or become unavailable.
-
-Impact:
-
-- Worker delays
-- Increased queue time
-
-Mitigation:
-
-- HTTP timeout
-- Retry policy
-- Circuit breaker
-- Failed job tracking
-
----
-
-## 2. Queue Overload
-
-Problem:
-
-Incoming requests are higher than processing capacity.
-
-Impact:
-
-- Increased audit completion time
-
-Mitigation:
-
-- Add more workers
-- Monitor queue length
-- Apply backpressure
-
----
-
-## 3. Database Failure
-
-Problem:
-
-Database becomes unavailable.
-
-Impact:
-
-- Audit results cannot be stored
-
-Mitigation:
-
-- Database backups
-- Connection retry
-- Database replication/failover
-
----
-
-# Observability Plan
-
-Monitor:
-
-## API
-
-- Request count
-- Response time
-- Error rate
-- Rate limit failures
 
 ## Queue
 
-- Queue size
+A queue is used between API and workers.
+
+Why:
+
+- Handles traffic spikes
+- Prevents API blocking
+- Allows worker scaling
+- Supports retries
+
+---
+
+## .NET Worker Service
+
+Workers process audit jobs in the background.
+
+They:
+
+- Fetch website information
+- Calculate audit details
+- Store results
+
+More workers can be added when traffic increases.
+
+---
+
+## Elasticsearch + Kibana
+
+Elasticsearch stores audit results as documents.
+
+Example data:
+
+```
+URL
+Status Code
+Response Time
+Timestamp
+Errors
+```
+
+Kibana is used to visualize:
+
+- Audit success/failure rate
+- Response time
+- Error trends
+- Traffic patterns
+
+---
+
+## Data Flow
+
+1. User sends audit request.
+2. API validates the request.
+3. API checks cache.
+4. If result exists, return cached response.
+5. Otherwise, create an audit job.
+6. Worker consumes the job.
+7. Worker performs URL audit.
+8. Result is stored in Elasticsearch.
+9. Result is returned and cached.
+
+---
+
+# 3. Technology Decisions
+
+| Component | Choice | Alternative | Reason |
+|---|---|---|---|
+| Backend | ASP.NET Core | Node.js | Existing implementation and strong async support |
+| Processing | .NET Worker Service | Direct API processing | Avoids blocking API requests |
+| Storage | Elasticsearch | SQL Database | Audit data is document-based and searchable |
+| Monitoring | Kibana | Custom dashboard | Works directly with Elasticsearch data |
+| Queue | RabbitMQ | Synchronous processing | Better handling of request bursts |
+
+---
+
+# 4. Failure Mode Analysis
+
+## External Website Timeout
+
+Problem:
+Some websites may respond slowly or fail.
+
+Impact:
+Audit processing becomes slow.
+
+Solution:
+
+- Add request timeout
+- Retry failed requests
+- Track failed audits
+
+---
+
+## Queue Overload
+
+Problem:
+More audit requests arrive than workers can process.
+
+Impact:
+Higher waiting time.
+
+Solution:
+
+- Increase worker instances
+- Monitor queue size
+- Apply request limits
+
+---
+
+## Elasticsearch Failure
+
+Problem:
+Audit results cannot be stored.
+
+Impact:
+Data availability issues.
+
+Solution:
+
+- Retry failed indexing
+- Monitor cluster health
+- Maintain backups
+
+---
+
+# 5. Monitoring and Rollback Plan
+
+## Monitoring
+
+Track:
+
+API:
+- Request latency
+- Error rate
+- Request count
+
+Workers:
 - Processing time
 - Failed jobs
+- Worker availability
 
-## Workers
+Queue:
+- Queue length
+- Processing delay
 
-- CPU usage
-- Memory usage
-- Worker failures
-- Audit processing time
-
-## Database
-
+Elasticsearch:
+- Indexing errors
 - Query latency
-- Connection usage
+- Cluster status
 
-## Cache
-
-- Cache hit rate
-- Redis availability
+Kibana dashboards can be used for visualization.
 
 ---
 
-# Alerting
+## Rollback Strategy
 
-Alerts should trigger for:
+For a bad deployment:
 
-- High API response latency
-- Increasing queue backlog
-- High error rate
-- Worker failures
-- Database connection failures
-- Cache failures
-
----
-
-# Deployment and Rollback Strategy
-
-## Deployment
-
-Use a rolling or blue-green deployment approach.
-
-Process:
-
-1. Deploy new version.
+1. Deploy the new version.
 2. Run health checks.
-3. Send traffic to new version.
-4. Monitor metrics.
-
----
-
-## Rollback
-
-If deployment causes issues:
-
-1. Stop traffic to the new version.
-2. Switch back to the previous stable version.
-3. Review logs and metrics.
-4. Fix and redeploy.
+3. Monitor errors and latency.
+4. If problems occur, switch back to the previous stable version.
+5. Fix issues and redeploy.
 
 ---
 
