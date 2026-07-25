@@ -6,6 +6,8 @@ using PagePulse.Api.Middleware;
 using PagePulse.Api.Services;
 using PagePulse.Api.Validators;
 
+Environment.SetEnvironmentVariable("DOTNET_USE_POLLING_FILE_WATCHER", "false");
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
